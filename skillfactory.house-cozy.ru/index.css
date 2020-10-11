@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(68, 66, 66);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgb(39, 36, 36);
+
+}
+h1{
+    color: rgb(243, 0, 0);
+    font-size: 2rem;
+    margin-left: 10px;
+}
+h2{
+    color: rgb(113, 0, 194);
+}
+.blocks{
+  float: center;
+  float: top;
+   }
+
+.block-news{
+  
+   text-align: center;
+    word-wrap: pre-line;
+    margin: 10px;
+    padding: 15px;
+    background: rgb(43, 37, 37);
+    width: auto;
+    height: auto;
+   }
+.news-foto{
+  
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 5; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: #666; /* Цвет подрисуночной подписи */
+}
